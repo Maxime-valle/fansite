@@ -1,0 +1,192 @@
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+            background-color: rgb(206, 199, 199);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #video-background {
+            position: fixed;
+            right: 0; 
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            width: auto; 
+            height: auto;
+            z-index: -100;
+            
+        }
+         .container {
+             width: 80%;
+             margin: auto;
+        } 
+
+        .action{
+            float: right;
+    
+        }
+
+
+        input[type=search] {
+            width: 75%;
+            box-sizing: border-box;
+            border: 2px solid #943f3f;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(227, 227, 227)255, 255;
+            padding: 12px 20px 12px 40px;
+            float: right;
+          }
+
+
+        header {
+            /* position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            color: rgb(255, 255, 255);
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #070707 3px solid;
+            font: 400 15px/1.8 "Lato", sans-serif; */
+            text-align: top;
+        }
+        
+        .animated-text {
+            font-size: 25px;
+            width: 100%;
+            white-space: normal;
+            overflow: hidden;
+            animation: animated-text 1s steps(1000, end) ;
+        }
+        @keyframes animated-text {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+header h1 {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 150px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+
+.title {
+	font-family: "Cairo";
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h2, h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+   -moz-background-clip: text;
+   -webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 10px 0;
+}
+
+.angel-button {
+    /*display: inline-block;
+    padding: 20px 30px;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    border-radius: 10px;
+    color:transparent;*/
+}
+.ange{
+    margin: 35px;
+    height: 50px;
+}
+.PH{
+   
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+
+}
+.p{
+    margin-left: 35%;
+    letter-spacing: 2px;
+    margin-top: -30%;
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+/* Alchimiste.html */
+
+.pht{
+    font-size: 150% ;
+    text-align: center;
+    color: rgb(52, 121, 181);
+    border-radius: 20%;
+    margin-left: 40%;
+}
+
+
+.pht img {
+    border-radius: 30%;
+    margin-left: 10%;
+    margin-bottom: 70%;
+    height: 200px;
+}
+.tph{
+
+ font-size: 120%;
+ color: aliceblue;
+ border-radius: 20%;
+}
+
+
+.contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    text-align: center;
+   margin-right: 0.25%;
+   padding-top: 5%;
+}
+
+
+#img_alch{
+    margin-bottom: 1%;
+}
+
+.text-box{
+    margin-bottom: 100px;
+
+}
+.kevin{
+    padding: 3%;
+    width: 70%;
+}
+.lien{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 150%;
+    color: aliceblue;
+} 
+
+.lien a{
+    text-decoration: none;
+    color: aliceblue;
+}
